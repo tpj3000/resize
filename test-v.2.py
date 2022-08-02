@@ -20,7 +20,7 @@ path = os.getcwd()
 print ('Path is set to', path)
 
 folders = os.listdir(path)
-del folders[3]
+folders = folders[:-1]
 
 print (folders)
 
