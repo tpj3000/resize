@@ -1,4 +1,3 @@
-from ctypes import resize
 import os, shutil, glob
 from PIL import Image
 from pathlib import Path
